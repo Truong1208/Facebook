@@ -22,6 +22,7 @@ html {
     /* margin-right: -6px; */
 }
 .grid__column-1 {
+    position: fixed;
     padding-left: 8px;
     /* padding-right: 6px; */
     width: 3.6%;
@@ -29,16 +30,27 @@ html {
     border-right: 1px solid var(--border-color);
     height: 100%;
 }
-.grid__column-5 {
+.grid__column-5-1 {
+    position: fixed;
+    margin-left: 78px;
     padding-left: 8px;
     padding-right: 8px;
     width: 16.666%;
     background-color: #F2F3F5;
 }
-.grid__column-16 {
+.grid__column-5 {
     padding-left: 8px;
     padding-right: 8px;
-    width:60.07%;
+    width: 17.666%;
+    background-color: #F2F3F5;
+    position: fixed;
+    margin-left: 1556px;
+}
+.grid__column-16 {
+    margin-left: 411px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width:59.07%;
     background-color: #F2F3F5;
 }
 

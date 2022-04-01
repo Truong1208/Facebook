@@ -240,7 +240,7 @@ position: absolute;
    color: #fff;
 }
 .story__item {
-    background-image: linear-gradient(0, rgba(0 0 0 / 0.4), transparent),url(https://scontent.fhan3-3.fna.fbcdn.net/v/t39.30808-6/277225150_508368640846604_8628869378513933895_n.jpg?stp=dst-jpg_s1080x2048&_nc_cat=101&ccb=1-5&_nc_sid=5b7eaf&_nc_ohc=3tz-YO2RsjgAX-bH6qa&tn=GRTB8MaJsr1B-nGB&_nc_ht=scontent.fhan3-3.fna&oh=00_AT9GdmupWDpNMIoaXISsOw1t9TwAEkFqleuTPxzymv3MDg&oe=6246C49C);
+    background-image: linear-gradient(0, rgba(0 0 0 / 0.4), transparent),url(https://scontent.fhph1-3.fna.fbcdn.net/v/t39.30808-6/277107738_510783070605161_325837998462324374_n.jpg?stp=dst-jpg_s1080x2048&_nc_cat=105&ccb=1-5&_nc_sid=5b7eaf&_nc_ohc=inmzQxLcQN8AX_TSbPb&_nc_ht=scontent.fhph1-3.fna&oh=00_AT94QqCvr7O7hC_M9bNi8V0GzyyXMm6SwTKA2WUy-EQeMQ&oe=624B57FB);
     background-position: center;
     height: 190px;
     width: 105px;
@@ -325,7 +325,7 @@ border-radius: 50%;
     font-size: 1.7rem;
     position: relative;
     outline: none;
-    padding-left: 7px;
+    padding-left: 15px;
     border-radius: 77px;
 }
 
@@ -517,4 +517,64 @@ margin-top: 17px;
 color: #1876f2;
 opacity: 0.6;
 padding-right: 8px;
+}
+
+.sponsored-by {
+    padding-top: 28px;
+    margin: 0;
+    padding-bottom: 16px;
+    font-size: 17px;
+    color: #65676b;
+    border-bottom: 1px solid #ccc;
+    opacity: 90%;
+    font-weight: 500;
+}
+.contact-text {
+    padding-top: 20px;
+    padding-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #65676b;
+}
+.contact-text-1 {
+    font-size: 17px;
+margin: 0;
+opacity: 90%;
+font-weight: 500;
+}
+.contact-text-icon {
+    margin: 0 12px;
+    font-size: 17px;
+    opacity: 90%;
+}
+.contact-user {
+display: flex;
+align-self: center;
+padding-bottom: 16px;
+}
+.contact-user-1 {
+padding: 8px 0;
+}
+.contact-user-name {
+display: flex;
+align-items: center;
+font-size: 15px;
+font-weight: 400;
+}
+.contact-user-avt {
+    width: 36px;
+    border-radius: 50%;
+  margin-right: 12px;
+  border: .5px solid #ccc;
+  position: relative;
+}
+.avt-online {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background-color: #45bd62;
+    border-radius: 50%;
+    transform: translateX(27px) translateY(-16px);
+    border: 2px solid #fff;
 }
